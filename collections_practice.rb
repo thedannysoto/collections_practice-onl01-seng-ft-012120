@@ -46,6 +46,11 @@ end
 
 def add_s(array)
   array[0] << "s"
+  x = 2
+  while x < array.length
+    array[x] << "s"
+  end
+  array
 end
 
 
