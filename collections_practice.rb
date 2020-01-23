@@ -42,12 +42,9 @@ end
 
 def sum_array(array)
   return array.sum
-  # sum = 0 
-  # array.each do |x|
-  #   sum += x
-  # end
-  # sum 
 end
+
+
 
 
 
