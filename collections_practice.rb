@@ -40,9 +40,13 @@ def find_a(array)
   return array.select {|word| word[0] == "a"}
 end
 
-
-
-
+def sum_array(array)
+  sum = 0 
+  array.each do |x|
+    sum += x
+  end
+  sum 
+end
 
 
 
